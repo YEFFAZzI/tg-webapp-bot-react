@@ -1,11 +1,18 @@
-
-import 'react-calendar/dist/Calendar.css';
-import Calendar from "react-calendar";
+import {BrowserRouter, Route} from "react-router-dom";
+import React from "react";
 
 function App() {
   return (
+
     <div className="App">
-     <Calendar/>
+      <BrowserRouter>
+        <Route>
+
+        </Route>
+          <Route>
+
+          </Route>
+      </BrowserRouter>
     </div>
   );
 }

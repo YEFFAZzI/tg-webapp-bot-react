@@ -1,11 +1,12 @@
 import React from 'react';
-
-const Calendar = () => {
+import 'react-calendar/dist/Calendar.css';
+import Calendar from "react-calendar";
+const CalendarMy = () => {
     return (
         <div>
-            
+            <Calendar/>
         </div>
     );
 };
 
-export default Calendar;
+export default CalendarMy;
